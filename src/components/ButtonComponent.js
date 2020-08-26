@@ -41,38 +41,4 @@ class Note extends Component {
     }
 }
 
-class Notes2 extends Component {
-
-    constructor(props) {
-      super(props);
-      this.state = {
-          value: '',
-          buttonText: 'Skip',
-        };
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-  
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      alert('A note was submitted: ' + this.state.value);
-      event.preventDefault();
-    }
-  
-    render() {
-      return (
-        <Form onSubmit={this.handleSubmit}>
-          <Label>Please provide any additional details you might like us to know about your request.
-            <Input type="text" value={this.state.value} onChange={this.handleChange} />
-          </Label>
-          <Input type="submit" value={this.state.buttonText} />
-        </Form>
-      );
-    }
-  }
-
 export default Note;
