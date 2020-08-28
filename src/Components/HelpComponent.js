@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 */
 
 //HelpComponent renders text heavy support page. After laying this out, I want to set up an itemDisplay component that will take props from data object to populate the different question items. this will make updating dynamic and easier. But in essebnce of time, will come back to do that later. other components to build now.
-function HelpComponent(){
+function HelpPage(){
 
     return (
         <div className="help-container">
@@ -87,4 +87,4 @@ function HelpComponent(){
     );
 }
 
-export default HelpComponent;
+export default HelpPage;

@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import { BrowserRouter } from 'react-router-dom';
-import HelpComponent from './Components/HelpComponent'
+import HelpPage from './Components/HelpComponent'
 import './App.css';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             Learn React
           </a>
         </header>
-        <HelpComponent />
+        <HelpPage />
       </div>
     </BrowserRouter>
   );
