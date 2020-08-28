@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Button } from 'reactstrap';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /*
 *********** NOPE... Don't need all of this. LOL, what a learing experience... Was wrong about this being a modal. It's just a page with router and animation
@@ -16,9 +16,11 @@ import { Button } from 'reactstrap';
 function HelpComponent(){
 
     return (
-        <div className="container">
+        <div className="help-container">
             <div className="help-close">
-                <p>close</p>
+                <Link className="special-a" to=''>
+                    <a type="button" className="special-a btn btn-lg">CLOSE</a>
+                </Link>
             </div>
             <div className="help-header">
                 <h1>HELP</h1>
@@ -36,7 +38,7 @@ function HelpComponent(){
                 <p>We search thousands of nearby trucks and find you the fastest service and best price. No membership fees. No haggling. No cash involved.</p>
             </div>
             <div className="item">
-                <h3>How to order roadside service on HONK!</h3>
+                <h3>HOW TO ORDER ROADSIDE SERVICE HONK!</h3>
                 <p>Ordering with HONK is easy. Simply follow these steps:</p>
                 <ol>
                     <li>Set your location: Once we know where you are, we can find nearby trucks to help you.</li>
@@ -49,22 +51,22 @@ function HelpComponent(){
             </div>
             <h2>FAQ</h2>
             <div className="item">
-                <h3>What payment methods are accepted?</h3>
+                <h3>WHAT PAYMENT METHODS ARE ACCEPTED?</h3>
                 <p>HONK is a cashless application. You must use a credit or debit card.</p>
             </div>
             <div className="item">
-                <h3>Where is my truck?</h3>
+                <h3>WHERE IS MY TRUCK?</h3>
                 <p>Our ETA is a best effort time frame.</p>
                 <p>If your truck does not arrive within 15 minutes of the ETA, we want to know about it! We review all customer ratings and reviews. Email us with questions at <a href="mailto:support@honkforhelp.com">support@honkforhelp.com</a>.</p>
             </div>
             <div className="item">
-                <h3>How does HONK ensure the quality of my ride?</h3>
+                <h3>HOW DOES HONK ENSURE THE QUALITY OF MY RIDE?</h3>
                 <p>HONK regularly reviews customer ratings and driver feedback to ensure high quality, highly rated service.</p>
                 <p>We actively seek feedback for every ride, and take this feedback very seriously.</p>
                 <p>If you ever have questions or feedback about your experience, Community Managers are standing by to help at <a href="mailto:support@honkforhelp.com">support@honkforhelp.com</a>.</p>
             </div>
             <div className="item">
-                <h3>What is HONK's cancellation policy?</h3>
+                <h3>WHAT IS HONK'S CANCELLATION POLICY?</h3>
                 <p>HONK charges the following for job cancellation:</p>
                 <ul>
                     <li>Within 5 minutes of job dispatch time: $0</li>
@@ -78,7 +80,7 @@ function HelpComponent(){
                 </ul>
             </div>
             <div className="item">
-                <h3>Who is coming to help me?</h3>
+                <h3>WHO IS COMING TO HELP ME?</h3>
                 <p>While you are entering your information, our app works with nearby roadside professionals &#40;from our network of 45,000 companies&#41; to find trucks available to service you quickly at the best rate.  Once you have checked out, the local partner will reach out to you directly.</p>
             </div>
         </div>
