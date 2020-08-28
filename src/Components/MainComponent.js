@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { Switch, Route, Redirect, withRouter } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Start from "./StartComponent";
+import Help from "./HelpComponent";
 
 class Main extends Component {
 
     render() {
 
-        const HomePage = () => {
+        const StartPage = () => {
             return(
                 <Start />
             );
@@ -14,10 +15,9 @@ class Main extends Component {
 
         return (
             <div>
-                <p />
                 <Switch>
-                    <Route path='/home' component={HomePage}/>
-                    <Route />
+                    <Route path='/start' component={StartPage}/>
+                    <Route exact path='/help' render={() => <Help />}/>
                     <Route />
                     <Redirect />
                 </Switch>

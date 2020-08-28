@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class HelpComponent extends Component {
+class Help extends Component {
     state = {  }
     render() {
         return (
@@ -9,4 +9,4 @@ class HelpComponent extends Component {
     }
 }
 
-export default HelpComponent;
+export default Help;
