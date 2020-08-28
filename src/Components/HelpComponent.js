@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
+
+/*
+*********** NOPE... Don't need all of this. need to set this up as full screen modal component
+that can be tied to help link in header component. ***************
+
 //functional component to display and trigger close
-function CloseHelp() {
-
-}
-
+function CloseHelp() {}
 //functional component to display button and trigger open transferring page
-function CallHelp() {
-
-}
+function CallHelp() {}
+*/
 
 //this HelpComponent will render the text heavy help page using two functional components and a bunch of text divs
 class HelpComponent extends Component {
