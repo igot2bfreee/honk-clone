@@ -27,7 +27,7 @@ function HelpComponent(){
                 <div className="help-call">
                     <p>Need to speak with a friendly HONK Support representative for assistance?</p>
                     <Link to=''>
-                        <Button type="button" className="btn btn-lg" color="primary">Call Support</Button>
+                        <Button type="button" className="btn">Call Support</Button>
                     </Link>
                 </div>
             </div>
