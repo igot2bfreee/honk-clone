@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
+import Start from "./StartComponent";
 
 class Main extends Component {
 
     render() {
+
+        const HomePage = () => {
+            return(
+                <Start />
+            );
+        }
+
         return (
             <div>
-                <Header />
+                <p />
                 <Switch>
-                    <Route />
+                    <Route path='/home' component={HomePage}/>
                     <Route />
                     <Route />
                     <Redirect />
@@ -19,4 +27,4 @@ class Main extends Component {
     }
 }
 
-export default ;
+export default Main;
