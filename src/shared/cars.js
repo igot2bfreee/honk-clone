@@ -164,7 +164,12 @@ export const CARS = [
     },
     {
         id = 10,
-        make = "Crysler"
+        make = "Crysler",
+        model =["Pacifica Hybrid",
+            "300",
+            "Voyager",
+            "Pacifica",
+        ]
     },
     {
         id = 11,
@@ -172,15 +177,35 @@ export const CARS = [
     },
     {
         id = 12,
-        make = "Dodge"
+        make = "Dodge",
+        model =["Journey",
+            "Grand Caravan Passenger",
+            "Challenger",
+            "Charger",
+            "Durango"
+        ]
     },
     {
         id = 13,
-        make = "Ferrari"
+        make = "Ferrari",
+        model =["812 Superfast",
+            "GTC4Lusso",
+            "488 GTB",
+            "488 Spider"
+        ]
     },
     {
         id = 14,
-        make = "Fiat"
+        make = "Fiat",
+        model =["500X",
+            "500",
+            "124 Spider",
+            "500c Abarth",
+            "500e",
+            "500c",
+            "500 Abarth",
+            "500L"
+        ]
     },
     {
         id = 15,
@@ -232,7 +257,12 @@ export const CARS = [
     },
     {
         id = 17,
-        make = "Genesis"
+        make = "Genesis",
+        model =["G70",
+            "G90",
+            "G80",
+            "GV80"
+        ]
     },
     {
         id = 18,
@@ -254,7 +284,7 @@ export const CARS = [
             "Yukon",
             "Canyon Crew Cab",
             "Savana 3500 Cargo",
-            "Savana 3500 Passenger",
+            "Savana 3500 Passenger"
         ]
     },
     {
@@ -303,11 +333,27 @@ export const CARS = [
     },
     {
         id = 21,
-        make = "Infiniti"
+        make = "Infiniti",
+        model =["Q60",
+            "Q70",
+            "QX30",
+            "QX80",
+            "Q50",
+            "QX60",
+            "QX50",
+        ]
     },
     {
         id = 22,
-        make = "Jaguar"
+        make = "Jaguar",
+        model =["XF",
+            "E-PACE",
+            "F-PACE",
+            "XE",
+            "F-TYPE",
+            "I-PACE",
+            "XJ",
+        ]
     },
     {
         id = 23,
@@ -323,7 +369,29 @@ export const CARS = [
     },
     {
         id = 24,
-        make = "Kia"
+        make = "Kia",
+        model =["Optima Plug-in Hybrid",
+            "Stinger",
+            "Optima Hybrid",
+            "Niro",
+            "Niro Plug-in Hybrid",
+            "Seltos",
+            "K5",
+            "Telluride",
+            "Niro EV",
+            "Soul EV",
+            "Sportage",
+            "Sedona",
+            "Optima",
+            "Rio",
+            "Sorento",
+            "Cadenza",
+            "K900",
+            "Soul",
+            "Forte",
+
+
+        ]
     },
     {
         id = 25,
@@ -331,7 +399,11 @@ export const CARS = [
     },
     {
         id = 26,
-        make = "Lamborghini"
+        make = "Lamborghini",
+        model =["Huracan",
+            "Aventador",
+            "Urus"
+        ]
     },
     {
         id = 27,
@@ -339,15 +411,46 @@ export const CARS = [
     },
     {
         id = 28,
-        make = "Land Rover"
+        make = "Land Rover",
+        model =["Range Rover Evoque",
+            "Range Rover",
+            "Range Rover Velar",
+            "Discovery Sport",
+            "Defender 110",
+            "Range Rover Sport",
+            "Defender 90",
+            "Discovery"
+        ]
     },
     {
         id = 29,
-        make = "Lexus"
+        make = "Lexus",
+        model =["LX",
+            "GX",
+            "RC",
+            "UX",
+            "LC",
+            "NX",
+            "GS",
+            "LS",
+            "ES",
+            "RX",
+            "IS",
+        ]
     },
     {
         id = 30,
-        make = "Lincoln"
+        make = "Lincoln",
+        model =["Nautilus",
+            "Corsair",
+            "MKZ",
+            "Navigator L",
+            "MKT",
+            "MKC",
+            "Continental",
+            "Navigator",
+            "Aviator"
+        ]
     },
     {
         id = 31,
@@ -355,31 +458,117 @@ export const CARS = [
     },
     {
         id = 32,
-        make = "Maserati"
+        make = "Maserati",
+        model =[
+            "Quattroporte",
+            "Levante",
+            "GranTurismo",
+            "Ghibli"
+        ]
     },
     {
         id = 33,
         make = "Maybach"
+
     },
     {
         id = 34,
-        make = "Mazda"
+        make = "Mazda",
+        model =[
+            "MAZDA6",
+            "CX-3",
+            "CX-5",
+            "CX-9",
+            "MX-5 Miata",
+            "CX-30",
+            "MX-5 Miata RF",
+            "MAZDA3"
+
+        ]
     },
     {
         id = 35,
-        make = "McLaren"
+        make = "McLaren",
+        model =["570GT",
+            "570S",
+            "600LT",
+            "720S"
+        ]
     },
     {
         id = 36,
-        make = "Mercedes"
+        make = "Mercedes",
+        model =["Metris WORKER Cargo",
+            "Metris WORKER Passenger",
+            "Mercedes-AMG E-Class",
+            "Mercedes-AMG GLC Coupe",
+            "Mercedes-AMG CLS",
+            "Mercedes-Maybach S-Class",
+            "Mercedes-AMG C-Class",
+            "Mercedes-AMG GLC",
+            "CLS",
+            "GLC",
+            "Mercedes-AMG G-Class",
+            "Mercedes-AMG SLC",
+            "SLC",
+            "GLC Coupe",
+            "Sprinter 1500 Cargo",
+            "Sprinter 1500 Passenger",
+            "Sprinter 4500 Crew",
+            "Sprinter 3500 XD Crew",
+            "Sprinter 4500 Cargo",
+            "Mercedes-AMG A-Class",
+            "Sprinter 3500 Crew",
+            "A-Class",
+            "Sprinter 3500 XD Cargo",
+            "S-Class",
+            "GLB",
+            "C-Class",
+            "E-Class",
+            "Mercedes-AMG S-Class",
+            "Mercedes-AMG GLE",
+            "GLA",
+            "GLE",
+            "Mercedes-AMG GLA",
+            "Sprinter 3500 Cargo",
+            "Metris Cargo",
+            "Mercedes-AMG GT",
+            "Metris Passenger",
+            "Sprinter 2500 Crew",
+            "Mercedes-AMG GLE Coupe",
+            "GLS",
+            "Sprinter 2500 Passenger",
+            "G-Class",
+            "Mercedes-AMG GLS",
+            " SL",
+            "CLA",
+            "Mercedes-AMG CLA",
+            "Sprinter 2500 Cargo",
+            "Mercedes-AMG SL",
+
+
+        ]
     },
     {
         id = 37,
-        make = "Mini"
+        make = "Mini",
+        model =["Countryman",
+            "Hardtop 4 Door",
+            "Convertible",
+            "Clubman",
+            "Hardtop 2 Door",
+        ]
     },
     {
         id = 38,
-        make = "Mitsubishi"
+        make = "Mitsubishi",
+        model =["Mirage G4",
+            "Mirage",
+            "Outlander",
+            "Outlander Sport",
+            "Eclipse Cross",
+            "Outlander PHEV"
+        ]
     },
     {
         id = 39,
@@ -431,11 +620,36 @@ export const CARS = [
     },
     {
         id = 44,
-        make = "Porsche"
+        make = "Porsche",
+        model =["Taycan",
+            "718 Cayman",
+            "718 Spyder",
+            "Cayenne Coupe",
+            "718 Boxster",
+            "Cayenne",
+            "911",
+            "Macan",
+            "Panamera"
+        ]
     },
     {
         id = 45,
-        make = "Ram"
+        make = "Ram",
+        model =["ProMaster City",
+            "1500 Classic Quad Cab",
+            " Crew Cab",
+            "ProMaster Window Van",
+            "1500 Classic Crew Cab",
+            "1500 Classic Regular Cab",
+            "ProMaster Cargo Van",
+            "2500 Crew Cab",
+            "2500 Regular Cab",
+            "1500 Quad Cab",
+            "3500 Regular Cab",
+            "2500 Mega Cab",
+            "3500 Mega Cab",
+            "3500 Crew Cab"
+        ]
     },
     {
         id = 46,
@@ -443,7 +657,13 @@ export const CARS = [
     },
     {
         id = 47,
-        make = "Rolls-Royce"
+        make = "Rolls-Royce",
+        model =["Cullinan",
+            "Ghost",
+            "Phantom",
+            "Dawn",
+            "Wraith"
+        ]
     },
     {
         id = 48,
@@ -451,15 +671,29 @@ export const CARS = [
     },
     {
         id = 49,
-        make = "Smart"
+        make = "Smart",
+        model =["fortwo EQ cabrio",
+            "fortwo electric drive cabrio",
+            "fortwo EQ coupe",
+            "fortwo electric drive"
+        ]
     },
     {
         id = 50,
-        make = "Subaru"
+        make = "Subaru",
+        model =["Legacy",
+            "Ascent",
+            "Impreza",
+            "Crosstrek",
+            "BRZ",
+            "Forester",
+            "WRX",
+            "Outback"
+        ]
     },
     {
         id = 51,
-        make = "Suzuki"
+        make = "Suzuki",
     },
     {
         id = 52,
@@ -506,10 +740,33 @@ export const CARS = [
     },
     {
         id = 54,
-        make = "Volkswagen"
+        make = "Volkswagen",
+        model =["e-Golf",
+            "Golf R",
+            "Atlas Cross Sport",
+            "Golf GTI",
+            "Golf SportWagen",
+            "Arteon",
+            "Jetta GLI",
+            " Golf Alltrack",
+            "Atlas",
+            "Passat",
+            "Jetta",
+            "Beetle",
+            "Golf",
+            "Tiguan"
+        ]
     },
     {
         id = 55,
-        make = "Volvo"
+        make = "Volvo",
+        model =["V60",
+            "XC40",
+            "V90",
+            "XC60",
+            "S90",
+            "S60",
+            "XC90"
+        ]
     },
 ];
