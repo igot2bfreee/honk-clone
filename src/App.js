@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Main from './Components/MainComponent'
+import Main from './Components/MainComponent';
+import Note from './Components/ButtonComponent';
+import Help from './Components/HelpComponent';
+import Transfer from './Components/TransferComponent'
 import './App.css';
 
 class App extends Component {
