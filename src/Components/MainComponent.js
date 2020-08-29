@@ -16,10 +16,9 @@ class Main extends Component {
         return (
             <div>
                 <Switch>
-                    <Route path='/start' component={StartPage}/>
-                    <Route exact path='/help' render={() => <Help />}/>
-                    <Route />
-                    <Redirect />
+                    <Route path='/' component={StartPage} />
+                    <Route exact path='/help' render={() => <Help /> } />
+                    <Redirect to='/home' />
                 </Switch>
             </div>
             
