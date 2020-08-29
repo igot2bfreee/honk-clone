@@ -5,7 +5,7 @@ function RenderBanner() {
     const renderQuestions = QUESTIONS.map((item) => (<li>{item.text}</li>));
     return {QUESTIONS} ? (
         <div className="col-md-5 m-1">
-            <p>{QUESTIONS[0].text}</p>
+            <h3>{QUESTIONS[0].text}</h3>
             <ul>{renderQuestions}</ul>
         </div>
     ) : (
