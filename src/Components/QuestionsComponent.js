@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { QUESTIONS } from '../shared/questions';
 
 function RenderBanner() {
-    return (
+    return {QUESTIONS} ? (
         <div className="col-md-5 m-1">
             <p>{QUESTIONS[0].text}</p>
         </div>
+    ) : (
+        <p>Questions Data Not Available</p>
     );
 }
 

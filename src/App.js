@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Main from './Components/MainComponent'
+import Main from './Components/MainComponent';
+import Banner from './Components/BannersComponent';
+import Questions from './Components/QuestionsComponent';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +10,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Main />
+          <Banner />
+          <Questions />
         </div>
       </BrowserRouter>
     );
