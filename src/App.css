@@ -35,37 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-<<<<<<< HEAD
-=======
-}
-
-.help-container {
-  background-color: #282c34;
-  color: white;
-  text-align: left;
-}
-
-.help-container h2 {
-  text-align: center;
-  background-color: #54585e;
-}
-
-.help-container a {
-  color: rgb(235, 154, 235);
-  font-weight: bold;
-}
-
-.help-close {
-  text-align: right;
-}
-
-.help-header {
-  text-align-last: center;
-}
-
-.help-container .special-a {
-  color: white;
-  font-weight: normal;
-  text-decoration: none;
->>>>>>> 5b0652ab64f992053ebeeebe1985080a1fdff128
 }
