@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Label, Input, Col, Button } from 'reactstrap';
+import BannersComponent from "./BannersComponent"
+import QuestionsComponent from "./QuestionsComponent"
 
 class Note extends Component {
 
@@ -27,6 +29,8 @@ class Note extends Component {
     render() {
         return (
             <div className="container">
+                <BannersComponent banners={this.state.banners} />
+                <QuestionsComponent />
                 <Form>
                     <FormGroup row>
                         <Label htmlFor="notes" ml-auto="true">Please provide any additional details you might like us to know about your request.</Label>

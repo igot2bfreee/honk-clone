@@ -6,9 +6,10 @@ function Start(props) {
     return (
         <div className="App">
             <header className="App-header">
+                <h2>Reactify Honk</h2>
                 <h4>Start</h4>
                 <img src={logo} className="App-logo" alt="logo" />
-                <p>Edit <code>src/App.js</code> and save to reload.</p>
+                <p>Leaving this here cuz it looks cool and we need somewhere to start.</p>
                 <Link to="/help">Help</Link>
             </header>
         </div>
