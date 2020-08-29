@@ -3,11 +3,11 @@ import { BANNERS } from '../shared/banners';
 
 function RenderBanner(props) {
     console.log("Render Banner")
-    const renderBanners = BANNERS.map((item) => (<li>{item.name}</li>));
+    // const renderBanners = BANNERS.map((item) => (<li>{item.name}</li>));
     return {BANNERS} ? (
         <div className="col-md-5 m-1">
             <h2>{BANNERS[0].name}</h2>
-            <ul>{renderBanners}</ul>
+            {/* <ul>{renderBanners}</ul> */}
         </div>
     ) : (
         <div>
