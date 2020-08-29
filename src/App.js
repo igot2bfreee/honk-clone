@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Help />
+          <Main />
         </div>
       </BrowserRouter>
     );
