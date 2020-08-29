@@ -7,7 +7,7 @@ function RenderBanner(props) {
     return {BANNERS} ? (
         <div className="col-md-5 m-1">
             <h2>{BANNERS[0].name}</h2>
-            {/* <ul>{renderBanners}</ul> */}
+            <ul>{renderBanners}</ul>
         </div>
     ) : (
         <div>
