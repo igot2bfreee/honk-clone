@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import { BrowserRouter } from 'react-router-dom';
+import HelpPage from './Components/HelpComponent'
 import './App.css';
+import Transfer from './Components/TransferComponent';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
             Learn React
           </a>
         </header>
+        <Transfer />
       </div>
     </BrowserRouter>
   );
