@@ -8,19 +8,16 @@ class Note extends Component {
 
         this.state = {
             noteText: 'Skip  ',
-            touched: {
-                notes: false,
-            }
+            touched: false,
         };
 
         this.updateText = this.updateText.bind(this);
     }
 
     updateText() {
-        if (this.state.touched.notes) {
-            this.setState({
-                noteText: 'Save Note  '
-            });
+        if (!(this.state.touched)) {
+            this.setState({ noteText: 'Save Note  ' });
+            this.setState({ touched: true });
         }
     }
 
@@ -31,7 +28,7 @@ class Note extends Component {
                     <FormGroup row>
                         <Label htmlFor="notes" ml-auto="true">Please provide any additional details you might like us to know about your request.</Label>
                         <Col ml-auto md={4}>
-                            <Input type="textarea" id="notes" name="notes" value="" onChange={this.updateText()} />
+                            <Input type="textarea" id="notes" name="notes" value="" onClick={this.updateText()} />
                         </Col>
                     </FormGroup>
                 </Form>
