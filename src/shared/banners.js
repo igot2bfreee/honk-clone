@@ -1,50 +1,50 @@
 export const BANNERS = [
     {
         id: 0,
-        name: "Your Location" ,
+        name: "YOUR LOCATION" ,
     },
     {
         id: 1,
-        name: "Jump Start Attempt" ,
+        name: "JUMP START ATTPEMT" ,
     },
     {
         id: 2,
-        name: "Battery Replacement" ,
+        name: "BATTERY REPLACEMENT" ,
     },
     {
         id: 3,
-        name: "Add a Note" ,
+        name: "ADD A NOTE" ,
     },
     {
         id: 4,
-        name: "Location Type" ,
+        name: "LOCATION TYPE" ,
     },
     {
         id: 5,
-        name: "Tow Destination" ,
+        name: "TOW DESTINATION" ,
     },
     {
         id: 6,
-        name: "Vehicle Information" ,
+        name: "VEHICLE INFORMATION" ,
     },
     {
         id: 7,
-        name: "Contact Information" ,
+        name: "CONTACT INFORMATION" ,
     },
     {
         id: 8,
-        name: "Summary" ,
+        name: "SUMMARY" ,
     },
     {
         id: 9,
-        name: "Credit Card" ,
+        name: "CREDIT CARD" ,
     },
     {
         id: 10,
-        name: "Help" ,
+        name: "HELP" ,
     },
     {
         id:11,
-        name: "Transferring" ,
+        name: "TRANSFERRING" ,
     }
 ];
