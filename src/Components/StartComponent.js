@@ -9,7 +9,7 @@ function Start(props) {
                 <h2>Reactify Honk</h2>
                 <h4>Start</h4>
                 <img src={logo} className="App-logo" alt="logo" />
-                <p>Leaving this here cuz it looks cool and we need somewhere to start.</p>
+                <p>Just Left this here cuz it looks cool and we need a starting point</p>
                 <Link to="/help">Help</Link>
             </header>
         </div>

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import "./assets/scss/index.scss";
 import { BrowserRouter } from 'react-router-dom';
 import Main from './Components/MainComponent';
+import Note from './Components/ButtonComponent';
+import Help from './Components/HelpComponent';
+import Transfer from './Components/TransferComponent'
 import './App.css';
 import Start from "./Components/StartComponent"
 import Note from './Components/ButtonComponent';
