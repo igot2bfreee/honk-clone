@@ -7,6 +7,7 @@ import Main from './Components/MainComponent';
 import Note from './Components/ButtonComponent';
 import Help from './Components/HelpComponent';
 import Transfer from './Components/TransferComponent'
+import HonkLogo from './Components/LogoComponent'
 import './App.css';
 import Start from "./Components/StartComponent"
 
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Main />
+          <Start />
         </div>
       </BrowserRouter>
     );
